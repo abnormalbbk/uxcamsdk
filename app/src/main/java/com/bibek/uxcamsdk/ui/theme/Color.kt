@@ -1,4 +1,4 @@
-package com.bibek.coresdk.ui.theme
+package com.bibek.uxcamsdk.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

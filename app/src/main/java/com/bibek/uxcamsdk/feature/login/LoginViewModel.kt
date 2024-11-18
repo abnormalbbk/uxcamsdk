@@ -1,4 +1,4 @@
-package com.bibek.coresdk.feature.login
+package com.bibek.uxcamsdk.feature.login
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

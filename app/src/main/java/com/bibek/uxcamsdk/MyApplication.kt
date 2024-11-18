@@ -1,6 +1,7 @@
-package com.bibek.coresdk
+package com.bibek.uxcamsdk
 
-import android.util.Log
+import com.bibek.coresdk.FirebaseProvider
+import com.bibek.coresdk.UxCamApplication
 import com.google.firebase.FirebaseApp
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -8,12 +9,9 @@ class MyApplication : UxCamApplication(), FirebaseProvider {
     override lateinit var firestore: FirebaseFirestore
 
     override fun onCreate() {
-        Log.d("XXXXX", "onCreate: MyApplication 1")
         FirebaseApp.initializeApp(this)
         firestore = FirebaseFirestore.getInstance()
 
         super.onCreate()
-
-        Log.d("XXXXX", "onCreate: MyApplication 2")
     }
 }

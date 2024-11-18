@@ -1,4 +1,4 @@
-package com.bibek.coresdk.feature.dashboard.helper
+package com.bibek.uxcamsdk.feature.dashboard.helper
 
 data class Post(
     val userName: String,

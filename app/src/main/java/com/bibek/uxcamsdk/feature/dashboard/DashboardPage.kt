@@ -1,4 +1,4 @@
-package com.bibek.coresdk.feature.dashboard
+package com.bibek.uxcamsdk.feature.dashboard
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -24,8 +24,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.bibek.coresdk.feature.dashboard.helper.DashboardPageHelper
-import com.bibek.coresdk.feature.dashboard.helper.Post
+import com.bibek.uxcamsdk.feature.dashboard.helper.DashboardPageHelper
+import com.bibek.uxcamsdk.feature.dashboard.helper.Post
 
 @Composable
 fun DashboardPage() {

@@ -1,4 +1,4 @@
-package com.bibek.coresdk
+package com.bibek.uxcamsdk
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,7 +11,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 import com.bibek.coresdk.core.UxCam
-import com.bibek.coresdk.ui.theme.UxCamSdkTheme
+import com.bibek.uxcamsdk.ui.theme.UxCamSdkTheme
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
