@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "545332343843",
+    "project_id": "uxcam-demo-da5fb",
+    "storage_bucket": "uxcam-demo-da5fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545332343843:android:514ec11a63af42e76cad96",
+        "android_client_info": {
+          "package_name": "com.bibek.uxcam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANZ2Jd55iZiAO6AQhuM-OCD087MxTVhss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545332343843:android:ef1919fb199fb8776cad96",
+        "android_client_info": {
+          "package_name": "com.bibek.uxcamsdk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANZ2Jd55iZiAO6AQhuM-OCD087MxTVhss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
