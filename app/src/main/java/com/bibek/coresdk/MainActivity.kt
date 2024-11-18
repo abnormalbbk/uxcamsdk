@@ -44,7 +44,7 @@ class MainActivity : ComponentActivity() {
     override fun onDestroy() {
         super.onDestroy()
         CoroutineScope(Dispatchers.IO).launch {
-            UxCam.startSession()
+            UxCam.endSession()
         }
     }
 }

@@ -18,6 +18,14 @@ abstract class AppDatabase : androidx.room.RoomDatabase() {
         @Volatile
         private var INSTANCE: AppDatabase? = null
 
+        /**
+         * Returns the singleton instance of the `AppDatabase`. If the instance does not exist,
+         * it creates a new database instance using Room.
+         *
+         * @param context The application context used to initialize the database.
+         * @return The singleton instance of `AppDatabase`.
+         */
+
         fun getInstance(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
                 INSTANCE ?: Room.databaseBuilder(
