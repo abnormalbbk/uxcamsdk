@@ -27,7 +27,7 @@ data with a remote server.
 
 The UxCam SDK is a tool for Android developers to track user behavior in their apps. The SDK
 captures events like button clicks, screen transitions, and user sessions. This data is then stored
-locally and can be synced with a remote server (e.g., Firestore or UxCam server) for analysis and
+locally and can be synced with a remote server (e.g., Firestore) for analysis and
 insights.
   
 ---  
